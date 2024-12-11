@@ -1,5 +1,10 @@
 #include <iostream>	
 
+
 void main() {
-	std::cout << "Hello World" << std::endl;
+	std::string nom;
+	std::cout << "Dame tu nombre: " << std::endl;
+	std::cin >> nom;
+	std::cout << "Bienvenido " << nom;
+
 }
